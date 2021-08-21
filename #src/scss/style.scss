@@ -1,0 +1,28 @@
+// base
+@import "./base/variables";
+@import "./base/mixins"; 
+@import "./base/zeroing";
+@import "./base/burger";
+@import "./base/fonts";
+@import "./base/popup";
+@import "./base/form";
+@import "./base/media";
+
+
+
+// blocks
+@import "./blocks/header";
+@import "./blocks/menublock";
+
+
+// global styles
+._container {
+	max-width: $width + px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+
+
+// media
+@import "./base/media";
